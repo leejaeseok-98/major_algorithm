@@ -37,15 +37,7 @@ public class A101HeapSort구현 {
         int right = parent * 2 + 2;
 //      check1 : 왼쪽, 오른쪽 노드가 배열의 길이보다 짧아야함
 //      check2 :  left, right 둘 중에 parent의 값보다 작은 값이 있을 경우 자리 change 후 heapify 재귀호출
-//        if (arr.length > left && arr.length > right){
-//            if (arr[parent] > Math.min(arr[left],arr[right])) {
-//                arr[parent] = Math.min(arr[left], arr[right]);
-//                heapify(arr, Arrays.asList(arr).indexOf(Math.min(arr[left], arr[right])));
-//            } else {
-//                return;
-//            }
-//        }
-        ;
+
 
         if (left >= len) return;
         if (right > len) {
